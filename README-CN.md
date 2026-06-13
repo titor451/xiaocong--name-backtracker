@@ -36,9 +36,9 @@ python backtracking.py
 
 ```python
 # 在文件顶部修改
-MIN_LEN = 2          # 最少字数
-MAX_LEN = 6          # 最多字数
-PREVIEW_LIMIT = 1000  # 预览条数（0 = 不限制 → 会跑很久）
+MIN_LEN = 1          # 最少字数
+MAX_LEN = 8          # 最多字数
+PREVIEW_LIMIT = 200  # 预览条数（0 = 不限制 → 会跑很久）
 ```
 
 ### 自定义剪枝
